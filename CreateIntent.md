@@ -9,6 +9,11 @@ So that we can ask him what's best for us to commute A bot is dialog driven, so 
 
 Let's go to [LUIS](https://www.luis.ai) and create a new app (call it whatever you'd like)
 
+![create App](screens/1_2_1_1-CreateIntentCreateApp.jpg)
+
+
+![create Intent](screens/1_2_1_2-CreateIntentCreateIntent.jpg)
+
 Now, let's prepare some intents, with some utterances for the first one and start giving him utterances:
 
 * what's the best way to move around?
@@ -16,9 +21,11 @@ Now, let's prepare some intents, with some utterances for the first one and star
 * how should i go somewhere?
 * what's the fastest vehicle?
 
+![create Utterances](screens/1_2_1_3-CreateIntentCreateUtterances.jpg)
+
 ### Now, first train your App, then Publish it to get an endpoint
 
-(IMG1)
+![create Utterances](screens/1_2_1_4-CreateIntentPublish.jpg)
 
 it will take a while top right
 
@@ -26,27 +33,28 @@ it will take a while top right
 
 * get the app info app information
 
-(IMG2)
+![App Info](screens/1_2_1_5-CreateIntentManageAppInfo.jpg)
 
 * get the endpoint endpoints
 
-(IMG3)
+![App endpoints](screens/1_2_1_6-CreateIntentManageKeys.jpg)
 
 ### Get back to the bot Application Settings and change these settings:
 
 * app settings
 
-(IMG4)
+![App endpoints](screens/1_2_1_7-CreateIntentConfigurations.jpg)
 
 ## Now let's use it
 
 Go to the function and change the BasicLuisDialog.csx so that we are ready for this new intent:
 
-(IMG5)
+![App endpoints](screens/1_2_1_8-CreateIntentFunction.jpg)
 
-
-here's an example
+here's an [example](exercises/ex1/BasicLuisDialog.csx)
 
 and try it! talk to him and keep training
 
-let's create a new [intent](https://github.com/xpandit/azurewebinar_cognitiveservices/wiki/LUIS2)that has an entity
+![App endpoints](screens/1_2_1_9-CreateIntentChat.jpg)
+
+let's create a new [intent](https://github.com/xpandit/landingjobs_cognitiveservices/blob/master/CreateIntentWithEntity.md) that has an entity

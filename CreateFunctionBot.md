@@ -8,8 +8,10 @@ First Create a function bot in [azure](https://portal.azure.com/)
 
 **Remember to use the LUIS template create bot**
 
-![create bot](screens/1-CreateFunctionBot.jpg)
+![create bot](screens/1_1_1-CreateFunctionBot.jpg)
 
 You can test it directly in the web chat, it's using a common LUIS
 
-Now, let's prepare our own [CreateIntent](https://github.com/xpandit/azurewebinar_cognitiveservices/wiki/LUIS)
+![web chat](screens/1_1_2-CreateFunctionBot_chat.jpg)
+
+Now, let's [Create an Intent](https://github.com/xpandit/landingjobs_cognitiveservices/blob/master/CreateIntent.md)
