@@ -4,10 +4,13 @@
 
 Back in [LUIS](https://www.luis.ai), and our app, add a prebuilt entity - datetimev2
 
-(IMG1)
+![Add prebuild entity](screens/1_2_2_1-CreateEntityAddPreBuildEntity.JPG)
 
+![Add prebuild entity 1](screens/1_2_2_2-CreateEntityAddPreBuildEntity_1.JPG)
 
 ## Create the intent choosewhen
+
+![create choose when intent](screens/1_2_2_3-CreateEntityAddIntentChooseWhen.JPG)
 
 And let's start adding utterances:
 
@@ -16,14 +19,18 @@ And let's start adding utterances:
 * Will it be a day to drive today?
 * Should I take a car today?
 
-(IMG2)
+![add utterances](screens/1_2_2_4-CreateEntityAddUtterances.JPG)
 
 ## Train and publish again
 
-(IMG3)
-
 Add the new intent to our bot: bot
 
-Or just paste the code from here: bot
+![Add intent to function](screens/1_2_2_5-CreateEntityAddIntentToFunction.JPG)
+
+Or just paste the code from here: [bot](exercises/ex2/BasicLuisDialog.csx)
+
+Test the bot
+
+![test entity in web chat](screens/1_2_2_6-CreateEntityTestInChat.JPG)
 
 here is how it works: [datetime](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/luis-reference-prebuilt-datetimev2)

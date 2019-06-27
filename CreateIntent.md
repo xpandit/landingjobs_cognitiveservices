@@ -49,12 +49,12 @@ it will take a while top right
 
 Go to the function and change the BasicLuisDialog.csx so that we are ready for this new intent:
 
-![App endpoints](screens/1_2_1_8-CreateIntentFunction.JPG)
+![Intent Function](screens/1_2_1_8-CreateIntentFunction.JPG)
 
 here's an [example](exercises/ex1/BasicLuisDialog.csx)
 
 and try it! talk to him and keep training
 
-![App endpoints](screens/1_2_1_9-CreateIntentChat.JPG)
+![Intent Test](screens/1_2_1_9-CreateIntentChat.JPG)
 
 let's create a new [intent](https://github.com/xpandit/landingjobs_cognitiveservices/blob/master/CreateIntentWithEntity.md) that has an entity
