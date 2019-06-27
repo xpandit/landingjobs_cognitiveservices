@@ -10,4 +10,4 @@
 
 
 
-[Start Luis Module](https://github.com/xpandit/azurewebinar_cognitiveservices/wiki/LUIS)
+[Start Luis Module](https://github.com/xpandit/landingjobs_cognitiveservices/blob/master/CreateFunctionBot.md)
