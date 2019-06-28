@@ -1,3 +1,16 @@
+
+![Add prebuild entity](screens/1_3_1-CreateWebApplication.jpg)
+![Add prebuild entity](screens/1_3_2-Channels.jpg)
+
+![Add prebuild entity](screens/1_3_3-GetEmbedCode.jpg)
+![Add prebuild entity](screens/1_3_4-AddGetEmbedCode.jpg)
+![Add prebuild entity](screens/1_3_5-TestWebApp.jpg)
+
+
+
+
+
+
 # Now for the intent choosewhen with datetime
 
 ## Let's add the prebuilt entity DateTime v2
@@ -35,4 +48,4 @@ Test the bot
 
 here is how it works: [datetime](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/luis-reference-prebuilt-datetimev2)
 
-Now let's Review the Utterances that we use in our tests [reviewUtterances](https://github.com/xpandit/landingjobs_cognitiveservices/blob/master/ReviewUtterances.md).
+How Amazing it would be if we integrate our bot with our Web App, it's possible let's try [integrate With Web App](https://github.com/xpandit/landingjobs_cognitiveservices/blob/master/IntegrateWithWebApp.md).
