@@ -23,4 +23,4 @@ Build and test the bot
 ![Add prebuild entity](screens/1_3_5-TestWebApp.jpg)
 
 
-Now Let's try to use custom vision [Custom Vision](https://github.com/xpandit/landingjobs_cognitiveservices/blob/master/IntegrateWithWebApp.md).
+Now Let's try to use custom vision [Custom Vision](https://github.com/xpandit/landingjobs_cognitiveservices/blob/master/CustomVision.md).
