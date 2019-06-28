@@ -9,7 +9,6 @@
       2. Create Intent with Entity
       3. Review Utterances
    3. Integrate with Web Application
-   4. Integrate With Skype
 2. Custom Vision Module
 
 
