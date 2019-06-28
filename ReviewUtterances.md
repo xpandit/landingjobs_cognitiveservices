@@ -6,4 +6,4 @@ The Luis allow us to check the utterances received. Also allow to change the int
 
 Check your utterance and see if there is any utterrance that you want to change the intent.
 
-Let's integrate the function with an Web Application: [Integrate with Web Application](https://github.com/xpandit/landingjobs_cognitiveservices/blob/master/IntegrateWithWebApp.md)
+How Amazing it would be if we integrate our bot with our Web App, it's possible let's try [Integrate with Web Application](https://github.com/xpandit/landingjobs_cognitiveservices/blob/master/IntegrateWithWebApp.md)

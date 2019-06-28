@@ -1,51 +1,26 @@
+# Now let's integrate Function bot with Web app
+
+## Create a Web Application
 
 ![Add prebuild entity](screens/1_3_1-CreateWebApplication.jpg)
+
+## Get the embed code to be added to the web app
+
+First go to the channels in the function bot. Select the Web Chat
+
 ![Add prebuild entity](screens/1_3_2-Channels.jpg)
 
+In the edit of this channel, copy the embed code and also, the secrets key
+
 ![Add prebuild entity](screens/1_3_3-GetEmbedCode.jpg)
+
+Go back to your Web App, and add the embed code to the index. In the embed code add the secret code.
+
 ![Add prebuild entity](screens/1_3_4-AddGetEmbedCode.jpg)
+s
+Build and test the bot
+
 ![Add prebuild entity](screens/1_3_5-TestWebApp.jpg)
 
 
-
-
-
-
-# Now for the intent choosewhen with datetime
-
-## Let's add the prebuilt entity DateTime v2
-
-Back in [LUIS](https://www.luis.ai), and our app, add a prebuilt entity - datetimev2
-
-![Add prebuild entity](screens/1_2_2_1-CreateEntityAddPreBuildEntity.jpg)
-
-![Add prebuild entity 1](screens/1_2_2_2-CreateEntityAddPreBuildEntity_1.jpg)
-
-## Create the intent choosewhen
-
-![create choose when intent](screens/1_2_2_3-CreateEntityAddIntentChooseWhen.jpg)
-
-And let's start adding utterances:
-
-* Can I drive a bike tomorrow?
-* Is it raining today?
-* Will it be a day to drive today?
-* Should I take a car today?
-
-![add utterances](screens/1_2_2_4-CreateEntityAddUtterances.jpg)
-
-## Train and publish again
-
-Add the new intent to our bot: bot
-
-![Add intent to function](screens/1_2_2_5-CreateEntityAddIntentToFunction.jpg)
-
-Or just paste the code from here: [bot](exercises/ex2/BasicLuisDialog.csx)
-
-Test the bot
-
-![test entity in web chat](screens/1_2_2_6-CreateEntityTestInChat.jpg)
-
-here is how it works: [datetime](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/luis-reference-prebuilt-datetimev2)
-
-How Amazing it would be if we integrate our bot with our Web App, it's possible let's try [integrate With Web App](https://github.com/xpandit/landingjobs_cognitiveservices/blob/master/IntegrateWithWebApp.md).
+Now Let's try to use custom vision [Custom Vision](https://github.com/xpandit/landingjobs_cognitiveservices/blob/master/IntegrateWithWebApp.md).
